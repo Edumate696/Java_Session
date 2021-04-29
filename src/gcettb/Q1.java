@@ -16,7 +16,7 @@ public class Q1 {
         System.out.println("Instance Block");
     }
 
-    public void First_C() {
+    public void Q1() {
         System.out.println("Constructor");
     }
 
@@ -26,7 +26,7 @@ public class Q1 {
 
     public static void main(String[] args) {
         Q1 q1 = new Q1();
-        q1.First_C();
+        q1.Q1();
         q1.myMethod();
     }
 }
